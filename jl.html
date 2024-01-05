@@ -1,0 +1,349 @@
+<!--文档类型：html-->
+<!DOCTYPE html>
+
+<!--顶层标签，包含网页所有实际内容，网页主要语言：中文简体-->
+<html lang="zh-CN">
+  <!--网页设置-->
+  <head>
+    <!--字典种类-->
+    <meta charset="utf-8" />
+
+    <!--手机上显示宽度等于手机宽度-->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!--网页标题-->
+    <title>宫浩天个人简历</title>
+
+    <!--设置网页样式，定义各种需要的类-->
+    <style>
+      body {
+        margin: 0; /*外边距0*/
+        height: 100vh; /*高度100vh（浏览器视图高度百分比）*/
+        background-color: #eee; /*背景：灰色*/
+      }
+
+      * {
+        border: 0px solid black; /*给所有元素添加黑色边框，方便查看布局*/
+      } /*通用选择器*/
+
+      .flex {
+        display: flex; /*布局样式：弹性盒子（主流布局方式）*/
+      }
+
+      .white {
+        background-color: white; /*背景：白色*/
+      }
+
+      .flex1 {
+        flex: 1; /*盒子填充比例：1*/
+      }
+
+      .column {
+        flex-direction: column; /*盒子排列方向：纵向*/
+      }
+
+      .mg8 {
+        margin: 8px; /*盒子外边距*/
+      }
+
+      .mgr8 {
+        margin-right: 8px; /*盒子右侧外边距*/
+      }
+
+      .mgl8 {
+        margin-left: 8px; /*盒子左侧外边距*/
+      }
+
+      .mgt8 {
+        margin-top: 8px; /*盒子顶部外边距*/
+      }
+
+      .shadow {
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px; /*设置阴影样式*/
+      }
+
+      .daoHang {
+        padding: 10px 20px; /*盒子上下内边距：20像素，左右内边距*/
+        border-bottom: 1px solid #999; /*底部边框*/
+        font-size: 14px; /*字号*/
+        color: gray; /*颜色*/
+      }
+
+      .xinXi {
+        padding: 10px 20px; /*盒子上下内边距，左右内边距：20像素*/
+        align-items: center; /*主轴居中对齐*/
+        justify-content: center; /*交叉轴居中对齐*/
+        font-size: 14px; /*字号*/
+        font-weight: bold; /*字体加粗*/
+        color: rgb(96, 82, 125); /*颜色*/
+      }
+
+      .neiRong {
+        max-width: 600px; /*最大宽度*/
+        min-width: 70vw; /*最小宽度：屏幕宽度百分比*/
+      }
+
+      .biaoTi {
+        align-items: center; /*主轴居中对齐*/
+        justify-content: center; /*交叉轴居中对齐*/
+        padding-top: 10px; /*盒子顶部内边距*/
+        padding-left: 10px; /*盒子左侧内边距*/
+        padding-right: 10px; /*盒子右侧内边距*/
+        padding-bottom: 5px; /*盒子底部内边距*/
+        font-size: 20px; /*字号：18像素*/
+      }
+
+      .gengXin {
+        align-items: center; /*主轴居中对齐*/
+        justify-content: center; /*交叉轴居中对齐*/
+        padding: 5px; /*盒子内边距*/
+        border-bottom: 1px solid #999; /*底部边框*/
+        font-size: 12px; /*字号*/
+        color: rgb(152, 67, 98); /*颜色*/
+      }
+      .jianJie {
+        padding-left: 10px; /*盒子左侧内边距*/
+        padding-right: 10px; /*盒子右侧内边距*/
+        padding-bottom: 10px; /*盒子底部内边距*/
+        font-size: 14px; /*字号*/
+        flex: 3; /*盒子填充比例：3*/
+      }
+
+      /*当屏幕宽度小于600像素时要改变的css（手机端适配）*/
+      @media (max-width: 600px) {
+        .ceBian {
+          display: none; /*侧边栏不显示*/
+        }
+        .neiRong {
+          min-width: 85vw; /*最小宽度：屏幕宽度百分比*/
+        }
+      }
+    </style>
+  </head>
+
+  <!--网页主体-->
+  <body class="flex">
+    <!--主区域-->
+    <div class="flex flex1 column">
+      <!--内容区，设置样式让滚动只发生在内容区-->
+      <div
+        style="overflow: auto; align-self: center"
+        class="flex flex1 column neiRong"
+      >
+        <!--头部栏-->
+        <div class="flex column flex1 white shadow">
+          <!--标题-->
+          <div class="flex biaoTi">
+            <div>个人简历</div>
+          </div>
+          <!--更新时间-->
+          <div class="flex gengXin">
+            <div>更新时间：2024.1.3</div>
+          </div>
+          <!--简历内容-->
+          <div
+            style="margin-left: 15px; margin-right: 15px"
+            class="flex column jianJie"
+          >
+            <!--基本信息栏-->
+            <div
+              style="height: 120px; background-color: rgb(20, 180, 205)"
+              class="flex"
+            >
+              <div style="align-items: center" class="flex mg8">
+                <div>
+                  <img
+                    src="https://s11.ax1x.com/2024/01/03/pijDfk4.jpg"
+                    alt="宫浩天头像"
+                    ;
+                    width="75"
+                    ;
+                    height="97"
+                    ;
+                  />
+                </div>
+              </div>
+
+              <div style="margin-left: px" class="flex column">
+                <div style="padding: 15px; font-size: 14px" class="flex1">
+                  <div style="font-weight: bold; padding: 5px">
+                    宫浩天<br />
+                  </div>
+                  <div style="font-size: 12px; padding: 5px">
+                    目前所在城市：烟台<br />
+                    电话：13305450163<br />
+                    邮箱：1356694642@qq.com
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--简历内容栏-->
+            <div class="flex flex1 column">
+              <!--教育背景-->
+              <div class="flex flex1">
+                <div style="font-size: 17px; font-weight: bold">教育背景</div>
+                <div class="flex flex1 column">
+                  <!--其它信息-->
+                  <div
+                    style="
+                      margin-top: 25px;
+                      margin-left: 5px;
+                      margin-right: 5px;
+                      font-weight: bold;
+                    "
+                    class="flex"
+                  >
+                    <div class="flex1">2019.09-2023.06</div>
+                    <div style="text-align: center" class="flex1">山东大学</div>
+                    <div style="text-align: end" class="flex1">
+                      电子科学与技术
+                    </div>
+                  </div>
+                  <div
+                    style="margin-top: 4px; margin-bottom: 20px"
+                    class="mgl8 mgr8"
+                  >
+                    主修课程：数字电子技术，模拟电子技术，信息光学，应用光学，激光原理与技术，
+                    C语言，C++，光电技术，微处理器原理与应用
+                  </div>
+                </div>
+              </div>
+              <!--实习经历-->
+              <div class="flex flex1">
+                <div style="font-size: 17px; font-weight: bold">实习经历</div>
+                <div class="flex flex1 column">
+                  <!--其它信息-->
+                  <div
+                    style="
+                      margin-top: 25px;
+                      margin-left: 5px;
+                      margin-right: 5px;
+                      font-weight: bold;
+                    "
+                    class="flex"
+                  >
+                    <div class="flex1">2021.01-2021.02</div>
+                    <div style="text-align: center" class="flex1">
+                      王后雄教育
+                    </div>
+                    <div style="text-align: end" class="flex1">助教</div>
+                  </div>
+                  <div
+                    style="margin-top: 4px; margin-bottom: 20px"
+                    class="mgl8 mgr8"
+                  >
+                    编写学生档案并分析，辅导学生作业，监督学生自习。
+                  </div>
+                </div>
+              </div>
+              <!--校园经历-->
+              <div class="flex flex1">
+                <div style="font-size: 17px; font-weight: bold">校园经历</div>
+                <div class="flex flex1 column">
+                  <!--其它信息-->
+                  <div
+                    style="
+                      margin-top: 25px;
+                      margin-left: 5px;
+                      margin-right: 5px;
+                      font-weight: bold;
+                    "
+                    class="flex"
+                  >
+                    <div class="flex1">2019.09-2021.06</div>
+                    <div style="text-align: center" class="flex1">国旗班</div>
+                    <div style="text-align: end" class="flex1">口令员</div>
+                  </div>
+                  <div
+                    style="margin-top: 4px; margin-bottom: 20px"
+                    class="mgl8 mgr8"
+                  >
+                    出场每周一升国旗活动及学校大型活动；
+                    和队友轮流负责每天升降旗。
+                  </div>
+                </div>
+              </div>
+              <!--项目经历-->
+              <div class="flex flex1">
+                <div style="font-size: 17px; font-weight: bold">项目经历</div>
+                <div class="flex flex1 column">
+                  <!--其它信息-->
+                  <div
+                    style="
+                      margin-top: 25px;
+                      margin-left: 5px;
+                      margin-right: 5px;
+                      font-weight: bold;
+                    "
+                    class="flex"
+                  >
+                    <div class="flex1">2019.11-2021.12</div>
+                    <div style="text-align: center" class="flex1">
+                      C++课程设计
+                    </div>
+                    <div style="text-align: end" class="flex1">
+                      音乐软件制作
+                    </div>
+                  </div>
+                  <div
+                    style="margin-top: 4px; margin-bottom: 20px"
+                    class="mgl8 mgr8"
+                  >
+                    编写C++代码，调试程序，设计软件外观，测试软件功能。
+                  </div>
+                  <!--其它信息-->
+                  <div
+                    style="
+                      margin-top: 5px;
+                      margin-left: 5px;
+                      margin-right: 5px;
+                      font-weight: bold;
+                    "
+                    class="flex"
+                  >
+                    <div class="flex1">2022.12-2023.05</div>
+                    <div style="text-align: center" class="flex1">
+                      本科毕业设计
+                    </div>
+                    <div style="text-align: end" class="flex1">
+                      显微成像系统的软件开发
+                    </div>
+                  </div>
+                  <div
+                    style="margin-top: 4px; margin-bottom: 20px"
+                    class="mgl8 mgr8"
+                  >
+                    以基础光学显微镜和COMS相机为模板搭建显微成像系统，以此系统为基础，使用Qt类库，以C++为主体语言开发显微图像处理软件，并实现了一些图像处理功能。
+                  </div>
+                </div>
+              </div>
+              <!--自我评价-->
+              <div class="flex flex1">
+                <div style="font-size: 17px; font-weight: bold">自我评价</div>
+                <div class="flex flex1 column">
+                  <!--其它信息-->
+
+                  <div
+                    style="margin-top: 25px; margin-bottom: 20px"
+                    class="mgl8 mgr8"
+                  >
+                    善于接受并学习新事物，适应能力强；<br />
+                    责任心强，负责的事情会尽力做到最好；<br />
+                    有良好的沟通能力和团队协作能力，能快速融入团队<br />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--底部栏-->
+        <div
+          style="align-self: center; color: #b31919; font-size: 12px"
+          class="flex column mgt8"
+        >
+          站长声明：本站无任何不良信息
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
